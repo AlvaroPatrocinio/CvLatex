@@ -1,4 +1,4 @@
-## Currículo Desenvolvido em Latex usando vim e texmaker
+## Currículo Desenvolvido em Latex usando Vim e Texmaker
 
 Bem-vindos ao repositório do desenvolvimento do meu currículo.
 
