@@ -1,0 +1,97 @@
+
+%%%%%%
+% Álvaro Patrocínio - curriculum vitae
+% Editado usando vim e texmaker
+% Uso de LaTeX e moderncv
+%%%%%%
+
+\documentclass[11pt,a4paper]{moderncv}
+\moderncvtheme[grey]{classic}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[scale=0.8]{geometry}
+\usepackage{datenumber,fp}
+\usepackage[pdftex]{hyperref}
+ 
+\PassOptionsToPackage{pdftex, 
+	colorlinks=true, 
+	urlcolor=cyan, 
+	linkcolor=cyan, 
+	filecolor=cyan, 
+	citecolor=cyan}{hyperref}
+ 
+\AtBeginDocument{\setlength{\maketitlenamewidth}{11,5cm}}
+\AtBeginDocument{\recomputelengths}
+
+% Informações pessoais
+\firstname{\fontsize{30}{40}\selectfont Álvaro Patrocínio}
+\title{Curriculum Vitae}
+\address{Rua Alferes Tiradentes, 543}{Diamantina - MG}
+\mobile {\href{https://api.whatsapp.com/send?phone=553398264407} {+55 (33) 9 9826-4407}}
+\email{soares.alvaro@ufvjm.edu.br}
+
+% --------------------------------------
+% CONTEÚDO
+% --------------------------------------
+
+\begin{document}
+\maketitle
+\section{Sobre}
+\cvcomputer
+{\textbf{Idade}}{21 anos}
+{\textbf{Estado civil}}{Solteiro}
+\cvcomputer
+{\textbf{Filhos}}{Não}
+{}{}
+
+\section{Formação Acadêmica}
+\cventry{Janeiro 2021 -- Atual}{Bachareleado em Sistemas de Informação}{}{Universidade Federal dos Vales do Jequitinhonha e Mucuri, UFVJM}{}{}
+\cventry{Janeiro 2018 -- Janeiro 2021}{Técnico em Informática}{}{Universidade de Franca, UNIFRAN}{}{}
+
+\section{Habilidades Técnicas}
+\cvcomputer
+{\textbf{OS's}}{Windows, Linux}
+{\textbf{Linguagens}}{Java, C++, HTML, CSS, JS}
+\cvcomputer
+{\textbf{Ferramentas}}{Git, GitHub}
+{\textbf{}}{}
+\cvcomputer
+{\textbf{Softwares}}{MySQL, Zabbix, Grafana, Winbox}
+{}{}
+
+% --------------------------------------
+% Experiência de Trabalho
+% --------------------------------------
+
+\section{Experiência Profissional}
+
+\cventry{Julho 2022 -- Atualmente}{Analista de Suporte}{}{Organizações Marques Center}{}{Monitoramento de ativos em tempo real via ferramenta opensource (zabbix) e grafana, consulta e manipuação de dados em SQL Server, manutenção de desktops e periféricos, configurações de maquinas virtuais, responsável pela integração de sistema de chamados (Milvus), configuração de maquinas, orçamentos, implementação em domínios, configurações de rede, suporte remoto, Active Directory, VPNs, manutenção em servidores e assistência especializada, suporte em infraestrutura de TI, manutenções preventivas, instalação e suporte em PDVs, integração com ramais IPs (3Cx), BI, realização de backups e instalação de sistema operacional, suporte em sistema de varejo (Linear Sistemas) e responsável pela suporte na matriz e 3 filiais.}
+
+\cventry{Janeiro 2019 -- Dezembro 2021}{Suporte em T.I}{}{Di Maria}{}{Suporte remoto em filiais e matriz, realização de flyers para divulgação (Photoshop), instalação de sistemas, lançamento e solução de notas fiscais, solução de notas em contingência, instalação de redes e infraestrutura, atendimento e manutenção em correspondentes bancários.}
+
+
+\section{Cursos de Especialização}
+
+\cventry{fevereiro 2023}{Computação em Nuvem}{}{K.A Solution}{}{Duração 04 horas}
+\cventry{Maio 2011}{Microsoft Azure Fundamentals}{}{K.A Solution}{}{Duração 04 horas}
+
+
+\section{Perfil}
+
+\cvitem{GitHub}{\href{https://github.com/AlvaroPatrocinio}{Álvaro Patrocínio Git Hub}}
+\cvitem{Linkedin}{\href{https://www.linkedin.com/in/alvarosoare/}{Álvaro Patrocínio Linkedin}}
+
+
+\section{Idiomas}
+\cvitem{Inglês}{Intermediário (Boa leitura e escrita)}
+
+% --------------------------------------
+% INTERESSES E HOBBIES
+% --------------------------------------
+\section{Interesses e Hobbies}
+
+\cvitem{Prazer}{Conhecer novas tecnologias, aprender algo novo.}
+\cvitem{Necessário}{Praticar esportes como basquete, jogar vôlei e academia.}
+% --------------------------------------
+\end{document}
