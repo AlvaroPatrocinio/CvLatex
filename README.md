@@ -1,6 +1,6 @@
 ## Currículo Desenvolvido em Latex usando Vim e Texmaker
 
-Bem-vindos ao repositório do desenvolvimento do meu currículo.
+Bem-vindos ao repositório de desenvolvimento do meu currículo.
 
 Documentado com arquivo .tex
 
